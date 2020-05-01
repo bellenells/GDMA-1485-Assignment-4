@@ -3,103 +3,76 @@
 <head>
 <meta charset="UTF-8">
 		
-<title>Responsive layout</title>
+<title>Responsive type</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="file:///Macintosh HD/Users/b.ellela/Documents/gdma/semester 2/web 1/exercises/exercise 12/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="file:///Macintosh HD/Users/b.ellela/Documents/gdma/semester 2/web 1/exercises/exercise 12/css/framework.css">
+	<link rel="stylesheet" type="text/css" href="file:///Macintosh HD/Users/b.ellela/Documents/gdma/semester 2/web 1/exercises/exercise 12/css/main.css">
+
+
 </head>
 
 <body>
 	
+	<div id="purple">
+      <div class="wrapper">
+		<div class="row">
+			<div id="logo"></div>
+			<div id="login"></div>
+			<div id="phone"></div>
+			
+			<nav>
+				<ul>
+					<!--hover state will be a border-bottom. whole thing text-align center-->
+					<li><a href="#">home</a></li>
+					<li><a href="#">courses</a></li>
+					<li><a href="#">pages</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">blog</a></li>
+					<li><a href="#">contact</a></li>
+					<!--unsure what the little arrows next to the list items will be-->
+				</ul>
+			</nav>
+		</div>
+		  <div class="row">
+		  <div id="courses-image"></div>
+			  <header class="courses">
+			  	<h1>learn from your favorite courses online</h1>
+			  </header>
+			  <div class="courses button">
+			  	<p>browse our courses</p>
+			  </div>
+		  </div>
+		  
+      </div>
+	</div>
+	
 	<div class="wrapper">
 		<div class="row">
-			<div class="col-sm-3 col-md-2 col-lg-1">
-				<img src="img/green-building.png" alt="" class="img-responsive">
-			</div>
-			<div class="col-sm-3 col-md-2 col-lg-1" id="bg-building"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1" id="bg-building2"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
-			<div class="col-sm-3 col-md-2 col-lg-1"></div>
+			<header class="tutorials">
+				<h2>over 7000 tutorials from 20 courses</h2>
+				<p>lorem ipsum</p>
+					<div class="button">
+						<p>email a course</p>
+					</div>
+			</header>
+				<div class="tutorials"> <!-- circles are border-radius but are they absolute positioned?-->
+					<p>20+ courses</p>
+					<p>20+ courses</p>
+					<p>20+ courses</p>
+				</div>
 		</div>
-	
-	
-	<div class="row">
-		<div class="col-sm-4 col-md-3 col-lg-2"></div>
-		<div class="col-sm-4 col-md-3 col-lg-2"></div>
-		<div class="col-sm-4 col-md-3 col-lg-2"></div>
-		<div class="col-sm-4 col-md-3 col-lg-2"></div>
-		<div class="col-sm-4 col-md-3 col-lg-2"></div>
-		<div class="col-sm-4 col-md-3 col-lg-2"></div>
-	</div>
-	
-	<div class="row">
-		<div class="col-sm-3 col-md-4 col-lg-3"></div>
-		<div class="col-sm-3 col-md-4 col-lg-3"></div>
-		<div class="col-sm-3 col-md-2 col-lg-3"></div>
-		<div class="col-sm-3 col-md-2 col-lg-3"></div>
-	</div>
 		
-	
-	<div class="row">
-		<div class="col-sm-4 col-md-5 col-lg-2"></div>
-		<div class="col-sm-4 col-md-5 col-lg-2"></div>
-		<div class="col-sm-4 col-md-1 col-lg-8"></div>
-	</div>
-	
-	<div class="row">
-		<div class="col-sm-5 col-md-6 col-lg-5"></div>
-		<div class="col-sm-5 col-md-3 col-lg-5"></div>
-		<div class="col-sm-2 col-md-3 col-lg-2"></div>
-	</div>
-	
-	<div class="row">
-		<div class="col-sm-6 col-md-5 col-lg-4"></div>
-		<div class="col-sm-6 col-md-7 col-lg-8"></div>
-	</div>
-	
-	<div class="row">
-		<div class="col-sm-7 col-md-6 col-lg-5"></div>
-		<div class="col-sm-5 col-md-6 col-lg-7"></div>
-	</div>
-	
-	<div class="row">
-		<div class="col-sm-8 col-md-7 col-lg-6"></div>
-		<div class="col-sm-4 col-md-5 col-lg-6"></div>
-	</div>
-	
-	<div class="row">
-		<div class="col-sm-9 col-md-8 col-lg-7"></div>
-		<div class="col-sm-3 col-md-4 col-lg-5"></div>
-	</div>
+		<header>
+			<h2>popular courses</h2>
+			<p> lorem ipsum</p>
+		</header>
 		
-	<div class="row">
-		<div class="col-sm-10 col-md-9 col-lg-8"></div>
-		<div class="col-sm-2 col-md-3 col-lg-4"></div>
 	</div>
-	
-	<div class="row">
-		<div class="col-sm-11 col-md-10 col-lg-9"></div>
-		<div class="col-sm-1 col-md-2 col-lg-3"></div>
-	</div>
-		
-	<div class="row">
-		<div class="col-sm-12 col-md-11 col-lg-10"></div>
-		<div class="col-md-1 col-lg-2"></div>
-		<img src="img/green-building.png" alt="" data-rjs="2">
-	</div>
-		
-		
-		</div>
+
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="js/retina.js"></script>
+	<script src="file:///Macintosh HD/Users/b.ellela/Documents/gdma/semester 2/web 1/exercises/exercise 12/js/retina.js"></script>
 </body>
 </html>
