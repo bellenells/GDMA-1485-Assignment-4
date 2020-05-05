@@ -15,12 +15,11 @@
 
 <body>
 	
-	<div id="purple">
-      <div class="wrapper">
+	<header id="purple">
+      
 		<div class="row">
-			<div id="logo"></div>
-			<div id="login"></div>
-			<div id="phone"></div>
+			<div id="logo"><h1></h1></div>
+			<div id="login phone"></div>
 			
 			<nav>
 				<ul>
@@ -35,18 +34,16 @@
 				</ul>
 			</nav>
 		</div>
+		<div class="wrapper">
 		  <div class="row">
 		  <div id="courses-image"></div>
-			  <header class="courses">
-			  	<h1>learn from your favorite courses online</h1>
-			  </header>
-			  <div class="courses button">
-			  	<p>browse our courses</p>
-			  </div>
+			  	<h2>learn from your favorite courses online</h2>		  
+			  	<a href="#"><p>browse our courses</p></a>
+			  
 		  </div>
 		  
       </div>
-	</div>
+	</header>
 	
 	<div class="wrapper">
 		<section class="row">
@@ -57,11 +54,10 @@
 						<p>email a course</p>
 					</div>
 			</header>
-				<div class="tutorials"> <!-- circles are border-radius but are they absolute positioned?-->
-					<p>20+ courses</p>
-					<p>20+ courses</p>
-					<p>20+ courses</p>
-				</div>
+				<div class="tutorials"><p>20+ courses</p></div>
+                <div class="tutorials"><p>20+ courses</p></div>
+                <div class="tutorials"><p>20+ courses</p></div>
+			
 		</section>
 		
 		<section class="popular">
@@ -69,28 +65,29 @@
               <h2>popular courses</h2>
 				<p>Lorem ipsum</p>
 			</header>
-			<div class="row">
+			<header class="row">
 				<div class="apps">
-					<div id="photoshop"></div>
-					<header>
+					<img src="">
+			
 						<h3>Photoshop</h3>
 						<p>lorem ipsum</p>
-					</header>
-						<div class="rating">
-							<ul>
-								<li>(4.5)</li>
-							</ul>
-						</div>
-						<div class="rating">
-							<p>$89.00<br>$49</p>
+						<div class="row">
+                          <div class="apps">
+                              <ul>
+                                  <li>(4.5)</li>
+                              </ul>
+                          </div>
+                          <div class="apps">
+                              <p>$89.00<br>$49</p>
+                          </div>
 						</div>
 				</div>
 				<div class="apps">
-					<div id="adobexd"></div>
-					<header>
+					<img src="">
+			
 						<h3>Adobe Xd</h3>
 						<p>lorem ipsum</p>
-					</header>
+		
 					<div class="rating">
 							<ul>
 								<li>(4.5)</li>
@@ -101,11 +98,11 @@
 						</div>
 				</div>
 				<div class="apps">
-					<div id="wordpress"></div>
-					<header>
+					<img src="">
+
 						<h3>Wordpress</h3>
 						<p>lorem ipsum</p>
-					</header>
+			
 					<div class="rating">
 							<ul>
 								<li>(4.5)</li>
@@ -116,61 +113,68 @@
 						</div>
 				</div>
 				
-				<div class="button">
-					<p>More Courses</p>
-				</div>
-			</div>
+				
+					<a href="#"><p>More Courses</p></a>
+			
+			</header>
 		
 			</section>	
-			
-			<section id="quoteimg">
+	</div>
+			<div id="quoteimg">
 				<div class="wrapper">
-                  <blockquote>Lorem ipsum</blockquote>
+                  <blockquote>
+					  <p>Lorem ipsum</p>
+					  	<footer>
+						<p>&mdash; jquileen</p>
+					</footer>
+				 </blockquote>
 				</div>
-			</section>
+			</div>
 			
-			<section class="wrapper">
-				<header class="specialty">
+			<header class="wrapper">
+				<div class="specialty">
 					<h2>Our course specialty</h2>
 					<p>lorem ipsum</p>
-				</header>
+				</div>
 				
 				<div class="row">
 					<div class="premium">
-						<div id="diamond"></div>
-						<header>
+						<img src="">
+					
 						<h3>Premium Quality</h3>
-						</header>
+					
 						<p>Lprem ipsum</p>
 					</div>
 					<div class="premium">
-						<div id="hand"></div>
-						<header>
+						<img src="">
+				
 						<h3>Premium Quality</h3>
-						</header>
+	
 						<p>Lprem ipsum</p>
 					</div>
 					<div class="premium">
-						<div id="flame"></div>
-						<header>
+						<img src="">
+	
 						<h3>Premium Quality</h3>
-						</header>
+
 						<p>Lprem ipsum</p>
 					</div>
 					<div class="premium">
-						<div id="crown"></div>
-						<header>
+						<img src="">
+				
 						<h3>Premium Quality</h3>
-						</header>
+		
 						<p>Lprem ipsum</p>
 					</div>
 				</div>
-			</section>
+			</header>
 		
 		<section id="bg-grn">
 			<form>
-				<legend>subscribe newsletter</legend>
-				<p>lorem ipsum</p>
+				<div class="form">
+                       <legend>subscribe newsletter</legend>
+                  <p>lorem ipsum</p>
+				</div>
 				<label for="emailaddress">enter your email</label>
 				<input type="email" name="emailaddress" placeholder="Email Address" id="emailaddress">
 				<p><a href="#">Subscribe</a></p>
@@ -218,9 +222,9 @@
 				</div>
 				  <div class="row">
 				  	<div class="edumark">
-					  	<header>
-							<h3>courses</h3>
-						</header>
+				
+							<p>courses</p>
+				 
 						<ul>
 							<li><a href="#">wordpress</a></li>
 							<li><a href="#">wordpress</a></li>
@@ -229,9 +233,9 @@
 						</ul>
 					 </div>
 					  <div class="edumark">
-					  	<header>
-							<h3>resources</h3>
-						</header>
+					 
+							<p>resources</p>
+					
 						<ul>
 							<li><a href="#">wordpress</a></li>
 							<li><a href="#">wordpress</a></li>
@@ -240,9 +244,9 @@
 						</ul>
 					 </div>
 					    <address class="edumark">
-					  	<header>
-							<h3>address</h3>
-						</header>
+					
+							<p>address</p>
+				
 						<ul>
 							<li><a href="#">wordpress</a></li>
 							<li><a href="#">wordpress</a></li>
@@ -252,15 +256,18 @@
 					 </address>
 				  </div>
               </div>
+				
+				<p>Copyright ipsum</p>
+				
 			</div>
 			
-			<p>Copyright ipsum</p>
+			
 		</footer>
 		
 			
 	
 		
-	</div>
+
 
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
