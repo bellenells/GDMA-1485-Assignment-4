@@ -63,22 +63,23 @@
 
 
 
-nav:first-child a {
-	text-align: right;
+nav:first-child li a {	
 	font-size: 13px;
 }
 
-nav:last-child a {
+nav {
 	text-align: center;
-	font-size: 13px;
 }
 
+h1 {
+	display: none;
+}
 
  a {
  color: #fff;
 }
 
-nav {
+nav li {
 	display: inline-block;
 }
 
