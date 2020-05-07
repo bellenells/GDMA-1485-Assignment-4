@@ -57,8 +57,10 @@
 /*--TYPOGRAPHY--*/
 
 #purple {
-	background-color: purple;
+	background-color: #7959a5;
 }
+
+
 
 
 nav:first-child a {
@@ -71,10 +73,35 @@ nav:last-child a {
 	font-size: 13px;
 }
 
-nav {
-color: #fff;
+
+ a {
+ color: #fff;
 }
 
+nav {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#green-pipe {
+   background-color: #cccccc;
+   background-image: url("../img/green-pipe.jpg");
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: 0 -200px;
+   width: 45%;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
 
 /*--------------------------------------------------------------
 5.0 - OBJECTS
@@ -88,11 +115,11 @@ color: #fff;
 
 
 @media only screen and(min-width: 768px) {
-font-size: 1rem;
+font-size: 2rem;
 }
 	
 @media only screen and(min-width: 1024px) {
-	
+	font-size: 5rem;
 }
 
 /*--------------------------------------------------------------
