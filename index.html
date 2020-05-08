@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 		
 <title>Assignment 4</title>
-	
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/framework.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://kit.fontawesome.com/e08efd0e54.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -18,19 +19,19 @@
 	<header id="purple">
       
 		<div class="row">
-			<div class="col-sm-12 col-lg-2"><h1><img src="img/edumark-logo.jpg" alt="edumark logo"></h1></div>
+			<div class="col-sm-12 col-lg-2"><h1><img src="img/edumark-logo.jpg" alt="edumark"></h1></div>
 
 			<nav class="col-sm-12 col-lg-7">
 				
 				<ul>
-					<!--hover state will be a border-bottom. whole thing text-align center-->
-					<li><a href="#">home</a></li>
-					<li><a href="#">courses</a></li>
-					<li><a href="#">pages</a></li>
-					<li><a href="#">about</a></li>
-					<li><a href="#">blog</a></li>
-					<li><a href="#">contact</a></li>
-					<!--unsure what the little arrows next to the list items will be-->
+					
+					<li><a href="#home">home</a></li>
+					<li><a href="#courses">courses</a></li>
+					<li><a href="#pages">pages</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#blog">blog</a></li>
+					<li><a href="#contact">contact</a></li>
+				
 				</ul>
 			</nav>
 			
@@ -40,31 +41,32 @@
 			</ul>
 				
 		</div>
-		<div class="wrapper">
+		<div class="wrapper" id="home">
 		  <div class="row">
 		  <div class="col-sm-12 col-md-6">
-			  <div id="green-pipe"></div>
+			  <img src="img/pink-stairs.jpg" alt="">
 		  </div>
 		  <div class="col-sm-12 col-md-6">
+			  
 			  	<h2>learn from your favorite courses online</h2>		  
-			  	<a href="#"><p>browse our courses</p></a>
+			  	<a href="#">browse our courses</a>
 		  </div> 
 		  </div>
 		  
       </div>
 	</header>
 
-        <div class="wrapper">
+        <div class="wrapper" id="courses">
             <section class="row">
                <header class="col-sm-12 col-lg-5">
                     <h2>Over 7000 Tutorials from 200 different courses</h2>
-                   <p>lorem ipsum</p>
+                   <p>lGumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
                    <a href="#">email a course</a>
                </header>
-               <div class="row col-sm-12 col-lg-7">
-                    <div class="col-sm-12">Orange</div>
-                    <div class="col-sm-12">Blue</div>
-                    <div class="col-sm-12">Green</div>
+               <div class="row col-sm-12 col-lg-7" id="circles">
+				   <div class="col-sm-12" id="orange">20+ Courses<br>courses</div>
+				<div class="col-sm-12" id="blue">7638<br>courses</div>
+                    <div class="col-sm-12" id="green">230+<br>courses</div>
 
                </div>
             </section>
@@ -72,71 +74,72 @@
 
 
 		
-		<section>
+		<section id="pages">
 			<header>
               <h2>popular courses</h2>
-				<p>Lorem ipsum</p>
+				<p>Gumbo beet greens corn soko endive gumbo gourd. .</p>
 			</header>
-			<header class="row">
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<img src="img/pink-building.jpg" alt="">
+			<div class="row">
+				<section class="col-sm-12 col-md-6 col-lg-4">
+					<img src="img/pink-curves.jpg" alt="">
 						<header>
 						<h3>Photoshop</h3>
-						<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+						<p>Gumbo beet greens corn soko endive gumbo gourd.</p>
 						</header>
 						<div class="row">
-                          <div class="apps">
+                          <div class="col-sm-6">
                               <ul>
                                   <li>(4.5)</li>
                               </ul>
                           </div>
-                          <div class="apps">
-                              <p>$89.00<br>$49</p>
+                          <div class="col-sm-6">
+							  <p><strike>$89.00</strike>$49</p>
                           </div>
 						</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<img src="img/green-pipe.jpg" alt="">
+				</section>
+				<section class="col-sm-12 col-md-6 col-lg-4">
+					<img src="img/pink-curves.jpg" alt="">
 						<header>
                           <h3>Adobe Xd</h3>
-						<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+						<p>Gumbo beet greens corn soko endive gumbo gourd.</p>
 						</header>
-					<div class="rating">
+					<div class="col-sm-6">
 							<ul>
 								<li>(4.5)</li>
 							</ul>
 						</div>
-						<div class="rating">
-							<p>$89.00<br>$49</p>
+						<div class="col-sm-6">
+							<p><strike>$89.00</strike>$49</p>
 						</div>
-				</div>
-				<div class="col-sm-12 col-lg-4">
-					<img src="img/pink-concrete.jpg" alt="">
+				</section>
+				<section class="col-sm-12 col-md-6 col-lg-4">
+					<img src="img/pink-curves.jpg" alt="">
 						<header>
                           <h3>Wordpress</h3>
-						<p>lGumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+						<p>lGumbo beet greens corn soko endive gumbo gourd.</p>
 						</header>
-					<div class="rating">
+					<div class="col-sm-6">
 							<ul>
 								<li>(4.5)</li>
 							</ul>
 						</div>
-						<div class="rating">
-							<p>$89.00<br>$49</p>
+						<div class="col-sm-6">
+							<p><strike>$89.00</strike>$49</p>
 						</div>
-				</div>
+				</section>
 				
 			
 					<a href="#"><p>More Courses</p></a>
 		
-			</header>
+			</div>
 		
 			</section>	
 	</div>
 			<div id="pink-brick">
 				<div class="wrapper">
                   <blockquote>
-					  <p>Lorem ipsum</p>
+					  <img src="img/pink-building.jpg" alt="">
+                        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
 					  	<footer>
 						<p>&mdash; jquileen</p>
 					</footer>
@@ -144,39 +147,39 @@
 				</div>
 			</div>
 			
-			<section class="wrapper">
+			<section class="wrapper" id="contact">
 				<header>
 					<h2>Our course specialty</h2>
-					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					<p>Gumbo beet greens corn soko endive gumbo gourd. </p>
 				</header>
 				
 				<div class="row">
 					<div class="col-sm-12 col-md-6 col-lg-3">
-						<img src="img/pink-wall.jpg" alt="">
+						<img src="img/pink-brick.jpg" alt="">
 						<header>
 							<h3>Premium Quality</h3>
-						<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+						<p>Gumbo beet greens corn soko endive gumbo gourd. </p>
 						</header>
 					</div>
 					<div class="col-sm-12 col-md-6 col-lg-3">
-						<img src="img/yellow-concrete.jpg" alt="">
+						<img src="img/pink-brick.jpg" alt="">
 						<header>
 						<h3>Premium Quality</h3>
-						<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+						<p>Gumbo beet greens corn soko endive gumbo gourd. </p>
 						</header>
 					</div>
 					<div class="col-sm-12 col-md-6 col-lg-3">
-						<img src="img/pink-stairs.jpg" alt="">
+						<img src="img/pink-brick.jpg" alt="">
 						<header>
 						<h3>Premium Quality</h3>				
-						<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+						<p>Gumbo beet greens corn soko endive gumbo gourd. </p>
 						</header>
 					</div>
 					<div class="col-sm-12 col-md-6 col-lg-3">
-						<img src="img/pink-curves.jpg" alt="">
+						<img src="img/pink-brick.jpg" alt="">
 						<header>
 						<h3>Premium Quality</h3>			
-						<p>LGumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+						<p>LGumbo beet greens corn soko endive gumbo gourd. </p>
 						</header>
 					</div>
 				</div>
@@ -184,42 +187,45 @@
 		
 		<section id="bg-grn">
 			<form>
+				<div class="col-lg-6">
 				 <legend>subscribe newsletter</legend>
-                  <p>lorem ipsum</p>		
-				<label for="emailaddress">enter your email</label>
+                  <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette </p>
+				</div>
+				<div class="col-lg-6">
+				<label for="emailaddress">Your domain control panel is</label>
 				<input type="email" name="emailaddress" placeholder="Email Address" id="emailaddress">
 				<p><a href="#">Subscribe</a></p>
-	
+				</div>
 			</form>
 		</section>
 		
-		<section class="wrapper">
+		<section class="wrapper" id="blog">
 			<header>
 			<h2>our latest blog</h2>
 			</header>
 			<div class="row">
 				<div class="col-sm-12 col-md-4">
-					<div id="laptops"></div>
+					<img src="img/pink-concrete.jpg" alt="">
 					<p>12 Jun, 2019 in <a href="#">Design tips</a></p>
 					<header>
 						<h3>Commitment to dedicated support</h3>		
-					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsle</p>
 					</header>
 				</div>
 				<div class="col-sm-12 col-md-4">
-					<div id="phoneset"></div>
+					<img src="img/pink-concrete.jpg" alt="">
 					<p>12 Jun, 2019 in <a href="#">Design tips</a></p>
 					<header>
 						<h3>Commitment to dedicated support</h3>
-					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette </p>
 					</header>
 				</div>
 				<div class="col-sm-12 col-md-4">
-					<div id="monitor"></div>
+					<img src="img/pink-concrete.jpg" alt="">
 					<p>12 Jun, 2019 in <a href="#">Design tips</a></p>
 					<header>
 						<h3>Commitment to dedicated support</h3>			
-					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgett</p>
 					</header>
 				</div>
 			</div>
@@ -228,9 +234,9 @@
 		<footer id="bg-purple">
 			<div class="wrapper">
               <div class="row">
-				<div class="social">
-				  <div id="logo2"></div>
-				 	<p></p>
+				<div class="col-sm-12 col-md-6 col-lg-3">
+				  <img src="img/edumark-logo.jpg" alt="edumark">
+				 	<p>Gumbo beet greens corn soko endive gumbo gourd. Parsle</p>
 			  	<ul>
 					<li> <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
                     <li> <a href="http://pinterest.com" target="_blank"><span>Pinterest</span><i class="fab fa-pinterest"></i></a></li>
@@ -239,7 +245,8 @@
 				</ul>
 				</div>
 				  <div class="row">
-				  	<section class="edumark">
+					 <div class="col-sm-12 col-md-6 col-lg-7">
+				  	<section class="col-sm-4">
 				
 							<h4>courses</h4>
 				 
@@ -250,7 +257,7 @@
 							<li><a href="#">wordpress</a></li>
 						</ul>
 					 </section>
-					  <section class="edumark">
+					  <section class="col-sm-4">
 					 
 							<h4>resources</h4>
 					
@@ -261,7 +268,7 @@
 							<li><a href="#">wordpress</a></li>
 						</ul>
 					 </section>
-					    <address class="edumark">
+					    <address class="col-sm-4">
 					
 							<h4>address</h4>
 				
@@ -274,9 +281,10 @@
 					 </address>
 				  </div>
               </div>
-				
-				<p>Copyright ipsum</p>
-				
+				 </div>
+				<div id="copyright">
+				<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgett</p>
+				</div>
 			</div>
 			
 			
